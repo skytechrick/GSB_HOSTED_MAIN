@@ -2,12 +2,12 @@
     /* border: 1px solid red; */
     width: 100%;
     height: 370px;
-    padding: 40px;
+    padding: 40px 0;
     
 }
 
 .producc_center {
-    /* width: 80%; */
+    width: 80%;
     margin: auto;
     display: flex;
     justify-content: center;
