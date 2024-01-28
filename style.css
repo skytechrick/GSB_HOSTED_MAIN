@@ -1,0 +1,86 @@
+.producc {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 370px;
+    padding: 40px;
+    
+}
+
+.producc_center {
+    /* width: 80%; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.Product1 {
+    width: 250px;
+    height: 370px;
+    background-color: aqua;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #aaa;
+    background-color: rgb(248, 248, 248);
+    
+}
+
+.Product1 img{
+    width: 220px;
+    margin: 13px;
+    border: 1px solid rgb(216, 89, 255);
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+
+.Product1 h3{
+    font-weight: normal;
+    margin: 13px;
+    /* border: 1px solid red; */
+    width: 220px;
+    height: 32px;
+    overflow: hidden;
+    padding: 0px;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.Product1 a{
+    color: black;
+    text-decoration: none;
+}
+
+.Pr {
+    /* border: 1px solid red; */
+    margin: 0 13px;
+    height: 27px;
+    
+}
+
+.BTNq {
+    /* border: 1px solid red; */
+    margin: 0 13px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgb(255, 79, 232);
+    cursor: pointer;   
+    display: flex;
+    justify-content: center;
+}
+
+.BTNq a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+.BTNq:hover{
+    background-color: rgb(235, 83, 255);
+}
+.BTNq:active{
+    text-align: center;
+    color: white;
+    background-color: rgb(240, 130, 255);
+}
