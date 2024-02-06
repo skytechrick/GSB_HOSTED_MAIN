@@ -118,7 +118,8 @@ Percentage_Off('999', '1999')
 
 
 function ADD_TO_CART_MAIN(){
-    window.location.href = "https://wa.me/8436431656?text=Kettle+product+I+WANT+TO+PURCHASE";
+    let F = window.location.href;
+    window.open(`https://wa.me/8436431656?text=*I+want+to+Purchase+this+product:*+%0a${F}%0aI+am+willing+to+give+you+my+details,+please+place+my+order+and+confirm+it.%0a*Thank+you*`, "_blank");
 };
 
 
